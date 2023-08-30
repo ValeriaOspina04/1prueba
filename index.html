@@ -2,6 +2,10 @@
 <head>
     <title> just a test page for USB</title>
     <link href="css/estilo.css" rel="stylesheet" type="text/css">
+<!--importa estilo de letra tipo opensans-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+<!--importa estilo general desde bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body>
 <h1> lenguajes de programacion (web)..</h1>
@@ -16,7 +20,7 @@
 <p><h6> descripcion del proyecto o de la pagina</h6>
 <p>mas informacion sobre el tema</p></p>
 
-<p>
+<br>
     <table border="1">
         <tr>
             <th>name</th>
@@ -40,8 +44,10 @@
             </tr>
         </tr>
     </table>
+</br>
+</br>
     <!-- segunda tabla-->
-    <table>
+    <table border="2">
         <tr>
             
             <th>S.N</th>
@@ -63,9 +69,57 @@
                 <td>arandano</td>
                 <td>4</td>
             </tr>
+            <!--atributo colspan-->
+            <tr>
+                <td colspan="2">total</td>
+                <td>9</td>
+            </tr>
         </tr>
     </table>
+</br>
+</br>
+    <!--tercera tabla haciendo subdivisiones con imagenes y tablas anidadas-->
+    <table border="2">
+    <tr>
+        <td><img src="images/aprender-programacion-web.webp"></td>
+        <td><img src="images/descarga.jpg"> </td>
+        <td><img src="images/images.png"></td>
+    </tr>
+    </table>
 </p>
+
+<table class="table">
+    <thead class="thead-dark">
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+    </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@ndo</td>
+        </tr>
+        <tr>
+            <th scope="row">2</th>
+            <td>jacob</td>
+            <td>thornton</td>
+            <td>@fat</td>
+        </tr>
+        <tr>
+            <th scope="row"></th>
+            <td>larry</td>
+            <td>the bird</td>
+            <td>@twitter</td>
+        </tr>
+    </tbody>
+    
+</table>
 
 </body>
 

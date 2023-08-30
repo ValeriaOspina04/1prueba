@@ -16,7 +16,7 @@ html {
     background-color: rgb(130, 192, 237);;
 }
 body {
-    width: 600px;
+    width: 1600px;
     margin: 0 auto;
     background-color: rgb(101, 204, 170);
     padding: 0 20px 20px; 
@@ -29,9 +29,7 @@ h1 {
     text-shadow: 3px 3px 1px black;
 
 }
-img {
-    display: block;
-    margin: auto;
-    width: 600px;
-    height: 400px;
+td img {
+    width: 400px;
+    height: 200px;
 }
